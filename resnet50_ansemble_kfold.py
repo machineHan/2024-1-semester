@@ -48,12 +48,12 @@ def load_audio(file_names, path, sr=22050):
 
 
 def load_train_test_data(train_path, test_path, train_file_names, test_file_names, sr=22050):
-    # ??? ?????? ?��?
+    
     print("Loading training data...")
     train_data = load_audio(train_file_names, train_path, sr)
     print("Training data loaded.")
 
-    # ???? ?????? ?��?
+    
     print("Loading testing data...")
     test_data = load_audio(test_file_names, test_path, sr)
     print("Testing data loaded.")
@@ -85,10 +85,10 @@ test_labels = np.concatenate([test_labels_healthy, test_labels_patho])
 def pad_sequences(data, max_length, padding_value=0):
     padded_data = []
     for seq in data:
-        # ???????? ????? ??? ??????? ��???? ?��? ???
+        
         if len(seq) < max_length:
             padded_seq = np.pad(seq, (0, max_length - len(seq)), mode='constant', constant_values=padding_value)
-        # ???????? ??? ??????? ?????? ???
+            
         else:
             padded_seq = seq[:max_length]
         padded_data.append(padded_seq)
@@ -440,7 +440,7 @@ def k_fold_cross_validation(train_mfcc_features, train_mel_features, train_label
     print(f"Best Vaildation Accuracy: {best_accuracy:.2f}%")
     return best_model
 
-epochs_arr = [30]
+epochs_arr = [20,30,40,50]
 lr_arr = [0.0001, 0.001, 0.01]
 
 for cur_epoch in epochs_arr:
