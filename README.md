@@ -35,7 +35,7 @@ SVD이라는 데이터셋을 활용
 7. SVM + Autocorrelation
 
 
-## result
+## result and feedback
 
 데이터가 적어서 이를 argumentation 하려 시도를 했지만 실패했다. colab 이라는 환경의 제약이 너무 컸다.
 
