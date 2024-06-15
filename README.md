@@ -24,7 +24,7 @@ SVD이라는 데이터셋을 활용
 가용 자원이 없어 단순히 colab에 의존해 모델 학습, 따라서 제한이 많은 상황.
 
 
-## list up trying
+## How we tried it
 
 1. resnet50(from scratch and pretrained) + melspectrogram
 2. resnet50(from scratch and pretrained) + MFCC
