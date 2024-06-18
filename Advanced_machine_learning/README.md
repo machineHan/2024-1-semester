@@ -1,8 +1,8 @@
-# AML_projectCode
+# Advanced machine learning team project
 2024-1 semester, advanced Machine Learning team projcet
 
 
-## process explain
+## dataset and implementation envirment
 
 SVD이라는 데이터셋을 활용
 
