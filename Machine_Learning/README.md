@@ -10,6 +10,8 @@
 
 
 > 독립변수 : person ID, gender, Occupation, Age, sleep Duration, Quality of Sleep, Physical Activity level, BMI Category, Blood Pressure, Heart Rate, Daily step, Sleep Disorder
+
+
 > 종속변수 : stress level
 
 
