@@ -1,8 +1,8 @@
-# Probabilistic machine learning team project
+# Probabilistic Machine Learning Team Project
 
 통계적 기계학습 팀 프로젝트는 다른 머신러닝 프로젝트와 다르게 주어진 데이터셋에 대한 EDA 부터 시작하여 통계적인 근거에 따라 모델을 구축한다.
 
-## dataset
+## Dataset
 
 > https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data
 
@@ -118,8 +118,6 @@ Random Forest가 가장 좋은 모델로 선택되었다. 데이터-모델 적�
 성능은 다음과 같이 나왔다
 
     accuracy : 96.13%
-    recall : 94%
-    precision : 97%
     f1 score : 95%
 
 
